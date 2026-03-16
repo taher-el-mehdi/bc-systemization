@@ -1,0 +1,36 @@
+permissionset 50312 "Systemization perm"
+{
+    Assignable = true;
+    Caption = 'Systemization permissions';
+    Permissions = table "Systemization Extension"=X,
+        codeunit "Systemization Package Builder"=X,
+        codeunit "Systemization Artifact Builder"=X,
+        codeunit "Systemization Navx Writer"=X,
+        codeunit "Systemization Environment"=X,
+        codeunit "Systemization Source Writer"=X,
+        codeunit "Systemization Table Builder"=X,
+        codeunit "Systemization Page Builder"=X,
+        codeunit "Systemization App Publisher"=X,
+        codeunit "Systemization Orchestrator"=X,
+        tabledata "Systemization Extension"=RIMD,
+        tabledata "Systemization Table"=RIMD,
+        tabledata "Systemization Field"=RIMD,
+        tabledata "Systemization Page"=RIMD,
+        tabledata "Systemization Page Field"=RIMD,
+        table "Systemization Table"=X,
+        table "Systemization Field"=X,
+        table "Systemization Page"=X,
+        table "Systemization Page Field"=X,
+        page "Systemization Extension"=X,
+        page "Systemization Extensions"=X,
+        page "Systemization Tables"=X,
+        page "Systemization Table"=X,
+        page "Systemization Fields"=X,
+        page "Systemization Field"=X,
+        page "Systemization Pages"=X,
+        page "Systemization Page"=X,
+        page "Systemization Page Fields"=X,
+        page "Systemization Page Field"=X,
+        page "systemization Page Anchor"=X,
+        page "sytemization Page Metadata"=X;
+}

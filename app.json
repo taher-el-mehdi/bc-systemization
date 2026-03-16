@@ -1,0 +1,33 @@
+{
+  "id": "71c1318d-9689-47fc-da7d-3b46617b2a4c",
+  "name": "Systemization",
+  "publisher": "TAHER.EL.Mehdi",
+  "version": "1.0.0.0",
+  "brief": "Systemization enables structured custom fields across Business Central tables and pages without requiring development.",
+  "description": "Systemization extends standard Business Central personalization by allowing partners and administrators to define structured custom fields that are safely stored and surfaced across tables and pages, reducing the need for development tickets for small changes.",
+  "EULA": "",
+  "help": "https://github.com/taher-el-mehdi/bc-systemization/issues",
+  "url": "https://github.com/taher-el-mehdi/bc-systemization",
+  "logo": "./assets/logo.ico",
+  "dependencies": [],
+  "screenshots": [],  
+  "platform": "1.0.0.0",
+  "application": "27.0.0.0",
+  "idRanges": [
+    {
+      "from": 50300,
+      "to": 50399
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "16.0",
+  "target": "Cloud",
+  "features": [
+    "NoImplicitWith",
+    "NoPromotedActionProperties"
+  ]
+}
